@@ -37,19 +37,16 @@
 
 ## 安装
 
-在插件目录外执行：
-
 ```powershell
-dsh plugin --profile web add .\dsh-custom-reasoning
+# 1. 拉取仓库
+git clone https://github.com/gao-gao-zai/dsh-custom-reasoning.git
+cd dsh-custom-reasoning
+
+# 2. 装配插件
+dsh plugin --profile web add .
+
+# 3. 按提示重启 DSH，刷新页面
 ```
-
-如果当前目录就是插件目录，也可以传入该目录的绝对路径：
-
-```powershell
-dsh plugin --profile web add "E:\DeepSeekHarness\上游\dsh-custom-reasoning"
-```
-
-安装后按 DSH 的提示重启 Web 运行时，然后刷新现有 DSH Web 页面。
 
 ## 使用
 
