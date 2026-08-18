@@ -1,0 +1,4 @@
+# dsh-custom-reasoning bundle patch: mounts the plugin into the web composition.
+- insert:
+    - id: dsh-custom-reasoning
+      name: dsh-custom-reasoning

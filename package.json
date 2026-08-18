@@ -1,0 +1,27 @@
+{
+  "name": "dsh-custom-reasoning",
+  "version": "0.1.0",
+  "description": "在 Settings 面板中为自定义 pi-ai 模型编辑推理等级（reasoningEfforts），支持多选、拖拽、复制粘贴，自动保存。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "reasoning", "custom-model"],
+  "license": "MIT"
+}
