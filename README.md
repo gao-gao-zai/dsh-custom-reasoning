@@ -1,7 +1,5 @@
 # dsh-custom-reasoning
 
-[![dsh-plugin](https://img.shields.io/badge/dsh-plugin-blue)](https://github.com/gao-gao-zai/dsh-custom-reasoning)
-
 为 DeepSeek Harness（DSH）的自定义 `pi-ai` 模型配置推理等级和思考格式。
 
 插件会在 DSH Web 的 Settings 页面增加"思考等级"区域。配置保存后，对话中的模型选择器会将模型支持的推理等级作为单选项展示。
